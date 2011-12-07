@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title><%= @item[:title] %> – LAPIS 2012</title>
+    <link href="/style.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  </head>
+  <body>
+    <header>
+      <a href="/"><img src="/images/stones.jpg" width="200" height="150"></a>
+      <hgroup>
+        <h1><a href="/">LAPIS 2012</a></h1>
+        <h2><a href="/">ESWC 2012 Workshop</a></h2>
+      </hgroup>
+    </header>
+    <nav>
+      <ul>
+        <% home_page = @items.find { |i| i.reps[0].path == '/' } %>
+        <% @items.sort{|a,b| a[:filename] <=> b[:filename]}.
+                  find_all{|c| c!= home_page}.
+                  find_all{|c| c[:extension] == 'html'}.
+                  each do |page| %>
+          <li><%= link_to(page[:title], page.reps[0]) %></li>
+        <% end %>
+      </ul>
+    </nav>
+    <article>
+      <%= yield %>
+    </article>
+  </body>
+</html>

@@ -1,0 +1,168 @@
+/*
+  html5doctor.com Reset Stylesheet
+  v1.6.1
+  Last Updated: 2010-09-17
+  Author: Richard Clark - http://richclarkdesign.com
+  Twitter: @rich_clark
+*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0;}body{line-height:1;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}nav ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:none;}a{font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0;}ins{background-color:#ff9;color:#000;text-decoration:none;}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:700;}del{text-decoration:line-through;}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help;}table{border-collapse:collapse;border-spacing:0;}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0;}input,select{vertical-align:middle;}
+
+@accent-color: #3B5998;
+@accent-highlight: lighten(@accent-color, 20%);
+
+/* General element make-up */
+
+body,th,td,tr,input,textarea,select {
+  font-family: Lato, sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 2.2em;
+  color: @accent-color;
+}
+h3 {
+  font-size: 1.2em;
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+a {
+  color: @accent-color;
+  text-decoration: none;
+  border-bottom: 1px solid;
+  &:hover {
+    color: @accent-highlight;
+  }
+}
+
+dt {
+  float: left;
+  clear: left;
+  font-weight: bold;
+  margin-right: 10px;
+  min-width: 100px;
+  text-align: right;
+}
+
+strong {
+  color: @accent-color;
+}
+
+/* Main layout */
+
+body {
+  margin: 10px;
+  width: 995px;
+  margin: 0 auto;
+  font-size: 14pt;
+  line-height: 1.6;
+}
+
+header {
+  margin: 1em 0 2em;
+  font-weight: 900;
+  line-height: 1;
+  * {
+    color: black !important;
+  }
+  &:hover * {
+    color: @accent-color !important;
+  }
+  h1 {
+    font-size: 5em;
+  }
+  h2 {
+    font-size: 2.5em;
+  }
+  img {
+    float: left;
+    margin-right: 20px;
+  }
+  a {
+    border-bottom-style: none;
+  }
+}
+
+nav {
+  margin: 1em 0 0;
+  
+  li {
+    display: inline;
+    padding-right: 30px;
+  }
+  
+  a {
+    border-bottom: 3px none;
+    font-size: 1.5em;
+    
+    &:hover {
+      border-bottom-style: solid;
+    }
+  }
+}
+
+/* Specific elements */
+
+.billboard {
+  width: 70%;
+  margin: 0 auto;
+  
+  h2 {
+    text-align: center;
+    margin: 1.5em 0;
+  }
+  
+  .action a {
+    &:first-child {
+      float: left;
+    }
+    &:last-child {
+      float: right;
+    }
+  }
+}
+
+.status {
+  font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+  color: gray;
+  background-color: #EDEFF4;
+  border-bottom: 1px solid #D2D9E7;
+  padding: 3px 10px;
+  cursor: pointer;
+  
+  img.logo {
+    float: left;
+    height: 5em;
+    margin: .5em 10px .5em 0;
+  }
+  
+  p {
+    margin: 0.5em 0 0;
+    
+    img {
+      float: left;
+      margin: 0 10px 1em 0;
+      height: 1.4em;
+    }
+    
+    strong {
+      color: #3B5998;
+    }
+  }
+  
+  hr {
+    border: none;
+    background-color: white;
+    border-top: 1px solid #D2D9E7;
+    margin: .5em 0;
+  }
+  
+  .fb-like {
+    margin-left: 10px;
+  }
+}
