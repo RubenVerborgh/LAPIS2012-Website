@@ -17,7 +17,7 @@ The following experts will review your [submissions](/call-for-papers/):
 - **Guilin Qi**, Southeast University, China
 - **Brahmananda Sapkota**, TU Twente, Netherlands
 - **Steffen Stadtmüller**, Karlsruhe Institute of Technology, Germany
-- **Thomas Steiner**, Univ. Politècnica de Catalunya
+- **Thomas Steiner**, Universitat Politècnica de Catalunya
 - **Pedro Szekely**, University of Southern California, USA
 - **Jürgen Umbrich**, DERI Galway, Ireland
 - **María-Esther Vidal**, Universidad Simón Bolívar, Venezuela
