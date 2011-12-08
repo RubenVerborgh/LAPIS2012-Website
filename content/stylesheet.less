@@ -18,6 +18,7 @@ body,th,td,tr,input,textarea,select {
 
 h1 {
   font-size: 3em;
+  line-height: 1.2em;
 }
 h2 {
   font-size: 2.2em;
@@ -27,8 +28,15 @@ h3 {
   font-size: 1.2em;
 }
 
-p {
-  margin: 0 0 1em;
+article {
+  p, ul, ol, dl {
+    margin: 0 0 1em;
+  }
+  p {
+    + ul, + ol, + dl {
+      margin-top: -1em;
+    }
+  }
 }
 
 a {
@@ -37,6 +45,12 @@ a {
   border-bottom: 1px solid;
   &:hover {
     color: @accent-highlight;
+  }
+}
+
+article {
+    ul, ol {
+    margin-left: 40px;
   }
 }
 
@@ -64,7 +78,7 @@ body {
 }
 
 header {
-  margin: 1em 0 2em;
+  margin: 1em 0 1em;
   font-weight: 900;
   line-height: 1;
   * {
@@ -78,6 +92,7 @@ header {
   }
   h2 {
     font-size: 2.5em;
+    line-height: 1.2em;
   }
   img {
     float: left;
@@ -89,7 +104,7 @@ header {
 }
 
 nav {
-  margin: 1em 0 0;
+  margin: 0 0 1em;
   
   li {
     display: inline;
@@ -119,6 +134,7 @@ nav {
   h2 {
     text-align: center;
     margin: 1.5em 0;
+    line-height: 1.2;
   }
   
   .action a {
@@ -138,6 +154,7 @@ nav {
   border-bottom: 1px solid #D2D9E7;
   padding: 3px 10px;
   cursor: pointer;
+  line-height: 1.4;
   
   img.logo {
     float: left;
