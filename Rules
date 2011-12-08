@@ -11,7 +11,7 @@ compile '*' do
   if item.binary?
     # don’t filter binary items
   else
-    filter :erb
+    filter :rdiscount if item[:extension] =~/md$/
     layout 'default'
     filter :relativize_paths, :type => :html
     filter :html_compressor if compress

@@ -20,7 +20,7 @@
         <% home_page = @items.find { |i| i.reps[0].path == '/' } %>
         <% @items.sort{|a,b| a[:filename] <=> b[:filename]}.
                   find_all{|c| c!= home_page}.
-                  find_all{|c| c[:extension] == 'html'}.
+                  find_all{|c| c[:extension] =~ /^html|md$/}.
                   each do |page| %>
           <li<%= @item == page ? ' class="active"' : '' %>><%= link_to(page[:title], page.reps[0]) %></li>
         <% end %>
