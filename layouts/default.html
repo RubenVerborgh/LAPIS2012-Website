@@ -22,7 +22,7 @@
                   find_all{|c| c!= home_page}.
                   find_all{|c| c[:extension] == 'html'}.
                   each do |page| %>
-          <li><%= link_to(page[:title], page.reps[0]) %></li>
+          <li<%= @item == page ? ' class="active"' : '' %>><%= link_to(page[:title], page.reps[0]) %></li>
         <% end %>
       </ul>
     </nav>
