@@ -19,6 +19,7 @@
       <ul>
         <% home_page = @items.find { |i| i.reps[0].path == '/' } %>
         <% @items.sort{|a,b| a[:filename] <=> b[:filename]}.
+                  sort{|a,b| (a[:order] || 0) <=> (b[:order] || 0)}.
                   find_all{|c| c!= home_page}.
                   find_all{|c| c[:extension] =~ /^html|md$/}.
                   each do |page| %>
