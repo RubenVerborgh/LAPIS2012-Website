@@ -20,4 +20,5 @@ The following experts will review your [submissions](/call-for-papers/):
 - **Thomas Steiner**, Universitat Politècnica de Catalunya
 - **Pedro Szekely**, University of Southern California, USA
 - **Jürgen Umbrich**, DERI Galway, Ireland
+- **Davy Van Deursen**, IBBT – ELIS, Ghent University, Belgium
 - **María-Esther Vidal**, Universidad Simón Bolívar, Venezuela
