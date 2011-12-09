@@ -23,3 +23,8 @@ Organizing committee member
 *Karlsruhe Institute of Technology*  
 Organizing committee member  
 [speiser@kit.edu](mailto:speiser@kit.edu)
+
+###<img class="contact" src="../images/maria.jpg" alt=""> Maria Maleshkova
+*Knowledge Media Institute*  
+Organizing committee member  
+[m.maleshkova@open.ac.uk](mailto:m.maleshkova@open.ac.uk)

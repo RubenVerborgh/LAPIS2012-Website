@@ -12,7 +12,6 @@ The following experts will review your [submissions](/call-for-papers/):
 - **Andreas Harth**, Karlsruhe Institute of Technology, Germany
 - **Robert Isele**, Freie Universität Berlin
 - **Ning Li**, KMi, Open University, UK
-- **Maria Maleshkova**, KMi, Open University, UK
 - **Erik Mannens,**, IBBT – ELIS, Ghent University, Belgium
 - **Guilin Qi**, Southeast University, China
 - **Brahmananda Sapkota**, TU Twente, Netherlands
