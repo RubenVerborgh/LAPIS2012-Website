@@ -141,6 +141,14 @@ footer {
   font-size: .8em;
   color: #999999;
   text-align: center;
+  
+  .twitter-follow-button {
+    margin: 0 5px 0 10px;
+    width: 140px !important;
+  }
+  .twitter-follow-button, .twitter-share-button {
+    margin-bottom: -5px;
+  }
 }
 
 /* Specific elements */
@@ -206,6 +214,37 @@ footer {
   .fb-like {
     margin-left: 10px;
     max-height: 25px;
+  }
+}
+
+.twitter {
+  clear: both;
+  margin: 4em 0 -1em;
+  
+  .twitter-follow-button {
+    height: 2em !important;
+    width: 190px !important;
+    float: left;
+  }
+  
+  .twitter-status {
+    font-style: italic;
+    border-bottom-style: none;
+    color: black;
+    
+    &:before {
+      content: '\201C';
+      float: left;
+      margin: -0.2em 0 0 -.5em;
+      font-weight: bold;
+      font-style: normal;
+    }
+    &:after {
+      content: '\201D';
+      padding-left: .2em;
+      font-weight: bold;
+      font-style: normal;
+    }
   }
 }
 

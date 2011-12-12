@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title><%= @item[:title] %> – LAPIS 2012</title>
     <link href="/style.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Lato:400,700,400italic" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   </head>
@@ -32,7 +32,20 @@
       <%= yield %>
     </article>
     <footer>
-      <p>&copy;2011–2012 LAPIS 2012 Workshop Organizing Committee</p>
+      <p>
+        &copy;2011–2012 LAPIS 2012 Workshop Organizing Committee
+        <a href="https://twitter.com/LAPIS_2012" class="twitter-follow-button"
+           data-show-count="false"
+           data-lang="en">Follow @LAPIS_2012</a>
+        <a href="https://twitter.com/share" class="twitter-share-button"
+           data-url="http://lapis2012.linkedservices.org/"
+           data-text="Linked APIs for the Semantic Web 2012 – ESWC 2012 Workshop"
+           data-via="LAPIS_2012"
+           data-related="LAPIS_2012"
+           data-hashtags="LAPIS2012"
+           data-lang="en">Tweet</a>
+      </p>
     </footer>
+    <script src="//platform.twitter.com/widgets.js" async></script>
   </body>
 </html>
