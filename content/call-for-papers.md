@@ -49,8 +49,8 @@ Your submission can be either of the following:
 There's **no limit** to the amount of submissions for this experimental component, so **get crazy**!
 
 ##Submission guidelines
-###Submitting your paper
-More info soon.
+###Sending your submission
+Please send us your submission before the deadline through [EasyChair](http://www.easychair.org/conferences/?conf=lapis2012).
 
 ###Deadlines
 <dl>
