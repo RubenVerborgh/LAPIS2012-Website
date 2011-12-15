@@ -52,12 +52,14 @@ There's **no limit** to the amount of submissions for this experimental componen
 ###Sending your submission
 Please send us your submission before the deadline through [EasyChair](http://www.easychair.org/conferences/?conf=lapis2012).
 
-###Deadlines
+###Dates
 <dl>
   <dt>March 4, 2012:</dt>
-  <dd>paper / vision paper / idea submission</dd>
+  <dd>deadline for paper / vision paper / idea submission</dd>
   <dt>April 1, 2012:</dt>
   <dd>acceptance notification</dd>
   <dt>April 15, 2012:</dt>
-  <dd>final version</dd>
+  <dd>deadline for final version</dd>
+  <dt>May 27 or 28, 2012:</dt>
+  <dd>LAPIS 2012 workshop</dd>
 </dl>
