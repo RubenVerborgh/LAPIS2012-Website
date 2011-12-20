@@ -63,3 +63,8 @@ Please send us your submission before the deadline through [EasyChair](http://ww
   <dt>May 27 or 28, 2012:</dt>
   <dd>LAPIS 2012 workshop</dd>
 </dl>
+
+
+### Bonus
+[Springer](http://www.springer.com/) will publish the best papers of this workshop in an ESWC 2012 workshops volume.  
+Don't hesitate and submit your work: your paper might be in there!
