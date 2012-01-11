@@ -13,9 +13,12 @@ The following experts will review your [submissions](/call-for-papers/):
 - **Armin Haller**, CSIRO, Australia
 - **Andreas Harth**, Karlsruhe Institute of Technology, Germany
 - **Katja Hose**, MPI Saarbrücken, Germany
+- **Geert-Jan Houben**, Delft University of Technology, The Netherlands
 - **Robert Isele**, Freie Universität Berlin
+- **Jacek Kopecký**, KMi, Open University, UK
 - **Ning Li**, KMi, Open University, UK
 - **Erik Mannens**, IBBT – ELIS, Ghent University, Belgium
+- **Carlos Pedrinaci**, Open University, UK
 - **Guilin Qi**, Southeast University, China
 - **Brahmananda Sapkota**, TU Twente, Netherlands
 - **Steffen Stadtmüller**, Karlsruhe Institute of Technology, Germany
@@ -25,3 +28,4 @@ The following experts will review your [submissions](/call-for-papers/):
 - **Davy Van Deursen**, IBBT – ELIS, Ghent University, Belgium
 - **María-Esther Vidal**, Universidad Simón Bolívar, Venezuela
 - **Erik Wilde**, EMC, USA
+- **Hong Qing Yu**, KMi, Open University, UK
