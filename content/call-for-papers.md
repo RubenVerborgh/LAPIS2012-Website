@@ -54,7 +54,7 @@ Please send us your submission before the deadline through [EasyChair](http://ww
 
 ###Dates
 <dl>
-  <dt>March 4, 2012:</dt>
+  <dt><del>March 4, 2012</del> <strong>Updated –</strong> March 9, 2012:</dt>
   <dd>deadline for paper / vision paper / idea submission</dd>
   <dt>April 1, 2012:</dt>
   <dd>acceptance notification</dd>
