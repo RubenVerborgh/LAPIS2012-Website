@@ -60,7 +60,7 @@ Please send us your submission before the deadline through [EasyChair](http://ww
   <dd>acceptance notification</dd>
   <dt>April 15, 2012:</dt>
   <dd>deadline for final version</dd>
-  <dt>May 27 or 28, 2012:</dt>
+  <dt>May 27, 2012:</dt>
   <dd>LAPIS 2012 workshop</dd>
 </dl>
 
