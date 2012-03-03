@@ -63,4 +63,4 @@ Help us reach a&nbsp;larger audience during the workshop!
 [Spread the word on Twitter](https://twitter.com/intent/tweet?hashtags=LAPIS2012&original_referer=http%3A%2F%2Flocalhost%3A3000%2Fabout%2F&related=LAPIS_2012&source=tweetbutton&text=Linked%20APIs%20for%20the%20Semantic%20Web%202012%20%E2%80%93%20ESWC%202012%20Workshop&url=http%3A%2F%2Flapis2012.linkedservices.org%2F&via=LAPIS_2012)
 and [follow us](https://twitter.com/LAPIS_2012) – we'll follow you as well.
 
-Read more about the [ESWC 20120 conference](http://2012.eswc-conferences.org/) and find out about registration, the venue, and travel arrangements.
+Read more about the [ESWC 2012 conference](http://2012.eswc-conferences.org/) and find out about registration, the venue, and travel arrangements.
