@@ -54,7 +54,7 @@ Please send us your submission before the deadline through [EasyChair](http://ww
 
 ###Dates
 <dl>
-  <dt><del>March 4, 2012</del> <strong>Updated –</strong> March 9, 2012:</dt>
+  <dt><del>March 9, 2012:</del></dt>
   <dd>deadline for paper / vision paper / idea submission</dd>
   <dt>April 1, 2012:</dt>
   <dd>acceptance notification</dd>
@@ -67,4 +67,3 @@ Please send us your submission before the deadline through [EasyChair](http://ww
 
 ### Bonus
 [Springer](http://www.springer.com/) will publish the best papers of this workshop in an ESWC 2012 workshops volume.  
-Don't hesitate and submit your work: your paper might be in there!
