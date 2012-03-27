@@ -4,7 +4,7 @@ title: Program Committee
 #Program Committee
 The following experts will review your [submissions](/call-for-papers/):
 
-- **José Luis Ambite**, Information Sciences Institute, USA
+- **José Luis Ambite**, University of Southern California, USA
 - **Sören Auer**, Universität Leipzig, Germany
 - **Sven Casteleyn**, Universidad Politécnica de Valencia, Spain
 - **Richard Cyganiak**, DERI Galway, Ireland
