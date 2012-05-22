@@ -54,11 +54,11 @@ Please send us your submission before the deadline through [EasyChair](http://ww
 
 ###Dates
 <dl>
-  <dt><del>March 9, 2012:</del></dt>
+  <dt><del>March 9, 2012</del>:</dt>
   <dd>deadline for paper / vision paper / idea submission</dd>
-  <dt><del>April 6, 2012:</del></dt>
+  <dt><del>April 6, 2012</del>:</dt>
   <dd>acceptance notification</dd>
-  <dt>April 15, 2012:</dt>
+  <dt><del>April 15, 2012</del>:</dt>
   <dd>deadline for final version</dd>
   <dt>May 27, 2012:</dt>
   <dd>LAPIS 2012 workshop</dd>

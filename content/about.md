@@ -16,6 +16,8 @@ title: About
   <dd>An inspiring day. Morning: <strong>talks</strong> and <strong>dialog</strong>. Afternoon: <strong>brainstorm</strong> and <strong>discussion</strong>.</dd>
 </dl>
 
+<strong>Interested?</strong> Take a look at the <a href="/program/">workshop program</a>.
+
 ##An essential problem in need of a&nbsp;fresh look
 ###Services and the Semantic Web: it's complicated.
 

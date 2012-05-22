@@ -2,7 +2,7 @@
 title: Program Committee
 ---
 #Program Committee
-The following experts will review your [submissions](/call-for-papers/):
+The following experts have reviewed the LAPIS 2012 submissions:
 
 - **José Luis Ambite**, University of Southern California, USA
 - **Sören Auer**, Universität Leipzig, Germany
