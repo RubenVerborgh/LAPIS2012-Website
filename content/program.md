@@ -18,4 +18,7 @@ title: Program
   <dt>14:30</dt><dd>Discussion</dd>
   <dt>14:45</dt><dd>Panel</dd>
   <dt>15:30</dt><dd>Coffee</dd>
+  <dt>16:00</dt><dd>Use case brainstorm</dd>
+  <dt>17:00</dt><dd>Closing</dd>
+  <dt>19:30</dt><dd>Lobby meet-up for dinner</dd>
 </dl>
