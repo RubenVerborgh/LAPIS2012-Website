@@ -48,10 +48,6 @@ Your submission can be either of the following:
 
 There's **no limit** to the amount of submissions for this experimental component, so **get crazy**!
 
-##Submission guidelines
-###Sending your submission
-Please send us your submission before the deadline through [EasyChair](http://www.easychair.org/conferences/?conf=lapis2012).
-
 ###Dates
 <dl>
   <dt><del>March 9, 2012</del>:</dt>
@@ -60,10 +56,6 @@ Please send us your submission before the deadline through [EasyChair](http://ww
   <dd>acceptance notification</dd>
   <dt><del>April 15, 2012</del>:</dt>
   <dd>deadline for final version</dd>
-  <dt>May 27, 2012:</dt>
+  <dt><del>May 27, 2012</del>:</dt>
   <dd>LAPIS 2012 workshop</dd>
-</dl>
-
-
-### Bonus
-[Springer](http://www.springer.com/) will publish the best papers of this workshop in an ESWC 2012 workshops volume.  
+</dl> 
