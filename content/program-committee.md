@@ -1,5 +1,6 @@
 --- 
-title: Program Committee
+title: Committee
+order: 4
 ---
 #Program Committee
 The following experts have reviewed the LAPIS 2012 submissions:

@@ -1,5 +1,6 @@
 ---
 title: About
+order: 0
 ---
 #About LAPIS 2012
 ##30-second overview
