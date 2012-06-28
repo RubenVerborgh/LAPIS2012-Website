@@ -17,7 +17,9 @@ order: 0
   <dd>An inspiring day. Morning: <strong>talks</strong> and <strong>dialog</strong>. Afternoon: <strong>brainstorm</strong> and <strong>discussion</strong>.</dd>
 </dl>
 
-<strong>Interested?</strong> Take a look at the <a href="/program/">workshop program</a>.
+**Interested?**
+Take a look at the [Call for Papers](/call-for-papers/)
+or the [workshop program](/program/).
 
 ##An essential problem in need of a&nbsp;fresh look
 ###Services and the Semantic Web: it's complicated.

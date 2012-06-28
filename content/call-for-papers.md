@@ -1,6 +1,7 @@
 --- 
 title: Call for Papers
 order: 2
+hide: true
 ---
 #Call for Papers
 ##Goal of the LAPIS workshop

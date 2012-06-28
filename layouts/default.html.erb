@@ -20,7 +20,8 @@
     <nav>
       <ul>
         <% home_page = @items.find { |i| i.reps[0].path == '/' } %>
-        <% @items.find_all{|c| c!= home_page and c[:extension] =~ /^html|md$/}.
+        <% @items.find_all{|c| c!= home_page and c[:extension] =~ /^html|md/}.
+                  find_all{|c| not c[:hide]}.
                   sort{|a,b| a[:filename] <=> b[:filename]}.
                   sort{|a,b| (a[:order] || 0) <=> (b[:order] || 0)}.
                   each do |page| %>
