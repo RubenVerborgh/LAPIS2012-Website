@@ -20,6 +20,9 @@
     <a href="http://www.mendeley.com/import/?url=<%= url_encode "http://#{config[:hostname]}#{item.reps.first.path}" %>" title="Add &ldquo;<%= h item[:title] %>&rdquo; to your Mendeley library">
       Add to Mendeley</a>
 </p>
+<p>
+  <a href="../">All papers</a>
+</p>
 
 <% content_for :head do
   fields = {
