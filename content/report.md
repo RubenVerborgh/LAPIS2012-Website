@@ -22,7 +22,7 @@ created by the participants during the workshop.
 
 ## Papers
 
-### [The necessity of hypermedia RDF and an approach to achieve it](/abstracts/1/)
+### [The necessity of hypermedia RDF and an approach to achieve it](/papers/1/)
 
 [Paper](http://lapis2012.linkedservices.org/papers/1.pdf)
 &ndash;
@@ -43,7 +43,7 @@ created by the participants during the workshop.
 - templates
 - Do we need more expressive linkage rules/templates (rather than links on the resource level only?)
 
-### [Semi-Automatically Modeling Web APIs to Create Linked APIs](/abstracts/2/)
+### [Semi-Automatically Modeling Web APIs to Create Linked APIs](/papers/2/)
 
 [Paper](http://lapis2012.linkedservices.org/papers/2.pdf)
 &ndash;
@@ -64,7 +64,7 @@ created by the participants during the workshop.
 - How to get live weather in DBpedia?
 - How do we scale up?
 
-### [The Missing Links](/abstracts/3/)
+### [The Missing Links](/papers/3/)
 
 [Paper](http://lapis2012.linkedservices.org/papers/3.pdf)
 
@@ -86,7 +86,7 @@ created by the participants during the workshop.
 - Will it scale?
 - How do we describe a service that uploads a photo and returns EXIF metadata differently from a service that only extracts EXIF metadata of a picture that it then forgets? [ thought: make the first a collection ]
 
-### [Hyperdata: Update APIs for RDF Data Sources](/abstracts/4/)
+### [Hyperdata: Update APIs for RDF Data Sources](/papers/4/)
 
 [Paper](http://lapis2012.linkedservices.org/papers/4.pdf)
 &ndash;

@@ -17,13 +17,13 @@ compile '/stylesheet/' do
   filter :rainpress if compress?
 end
 
-compile /^\/abstracts\/./ do
-  layout 'abstract'
+compile /^\/papers\/[a-z]/ do
+  layout 'paper'
   filter :rdiscount
   default_layout
 end
 
-compile /^\/abstracts\/./, :rep => 'bibtex' do
+compile /^\/papers\/[a-z]/, :rep => 'bibtex' do
 end
 
 compile '*' do
@@ -38,12 +38,16 @@ route '/stylesheet/' do
   '/style.css'
 end
 
-route /^\/abstracts\/./ do
-  "/abstracts/#{item[:id]}/index.html"
+route /^\/papers\/[a-z]/ do
+  "/papers/#{item[:id]}/index.html"
 end
 
-route /^\/abstracts\/./, :rep => 'bibtex' do
+route /^\/papers\/[a-z]/, :rep => 'bibtex' do
   item.identifier + item[:key] + '.bib'
+end
+
+route '/pdf/*' do
+  "/papers/#{item.identifier.match /\d+/}.pdf"
 end
 
 route '*' do

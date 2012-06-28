@@ -42,7 +42,7 @@ data_sources:
   
   -
     type: bibtex
-    items_root: /abstracts
+    items_root: /papers
     config:
       path: assets
       exclude:
