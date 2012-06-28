@@ -1,25 +1,49 @@
 #!/usr/bin/env ruby
 
-compress = File.exists? 'COMPRESS'
+class Nanoc::RuleContext
+  def compress?
+    @compress.nil? ? @compress = File.exists?('COMPRESS') : @compress
+  end
+  
+  def default_layout
+    layout 'default'
+    filter :relativize_paths, :type => :html
+    filter :html_compressor if compress?
+  end
+end
 
 compile '/stylesheet/' do
   filter :less
-  filter :rainpress if compress
+  filter :rainpress if compress?
+end
+
+compile /^\/abstracts\/./ do
+  layout 'abstract'
+  filter :rdiscount
+  default_layout
+end
+
+compile /^\/abstracts\/./, :rep => 'bibtex' do
 end
 
 compile '*' do
-  if item.binary?
-    # don’t filter binary items
-  else
-    filter :rdiscount if item[:extension] =~/md$/
-    layout 'default'
-    filter :relativize_paths, :type => :html
-    filter :html_compressor if compress
+  unless item.binary?
+    filter :erb if item[:extension] =~ /erb$/
+    filter :rdiscount if item[:extension] =~ /md(\.|$)/
+    default_layout
   end
 end
 
 route '/stylesheet/' do
   '/style.css'
+end
+
+route /^\/abstracts\/./ do
+  "/abstracts/#{item[:id]}/index.html"
+end
+
+route /^\/abstracts\/./, :rep => 'bibtex' do
+  item.identifier + item[:key] + '.bib'
 end
 
 route '*' do

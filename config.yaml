@@ -39,6 +39,17 @@ data_sources:
     # The path where layouts should be mounted. The layouts root behaves the
     # same as the items root, but applies to layouts rather than items.
     layouts_root: /
+  
+  -
+    type: bibtex
+    items_root: /abstracts
+    config:
+      path: assets
+      exclude:
+        - abstract
+        - id
+
+hostname: lapis2012.linkedservices.org
 
 # Configuration for the “watch” command, which watches a site for changes and
 # recompiles if necessary.

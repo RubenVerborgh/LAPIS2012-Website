@@ -1,0 +1,39 @@
+<h1 class="citation_title"><%= h item[:title].sub(/([^\s]+)\s+([^\s]+)$/, '\1 \2') %></p>
+<p class="citation_author">by <%= authors = item[:author]
+       authors.to_a.map{ |a| "#{a.first} #{a.prefix} #{a.last} #{a.suffix}".strip }.
+               join(authors.length <= 2 ? ' and ' : ', ').
+               sub(/, ([^,]+)$/, ', and \1') %></h1>
+<% if item[:abstract] %>
+<p class="citation_abstract">
+  <%= h item[:abstract].gsub(/~/, ' ') %>
+</p>
+<% end %>
+<p>
+  <span class="citation_journal_title"><%= h item[:booktitle] %></span>
+  (<span class="citation_publication_date"><%= h item[:year]%></span>)
+</p>
+<p>
+  <a href="<%= h item[:url] %>" title="<%= h item[:title] %>" class="citation_pdf_url">Full text</a>
+    &ndash;
+  <a href="<%= item.reps.find{|r| r.name == :bibtex}.path %>" title="BibTeX entry of &ldquo;<%= h item[:title] %>&rdquo;">BibTeX</a>
+    &ndash;
+    <a href="http://www.mendeley.com/import/?url=<%= url_encode "http://#{config[:hostname]}#{item.reps.first.path}" %>" title="Add &ldquo;<%= h item[:title] %>&rdquo; to your Mendeley library">
+      Add to Mendeley</a>
+</p>
+
+<% content_for :head do
+  fields = {
+    :title => item[:title],
+    :authors => item[:author].to_s.gsub(/ and /, '; '),
+    :date => item[:year],
+    :publication_date => item[:year],
+    :journal_title => item[:booktitle],
+    :pdf_url => item[:url],
+    :abstract_pdf_url => item[:url],
+    :abstract_html_url => "http://#{config[:hostname]}#{item.reps.first.path}"
+  }
+  fields.each do |key,value| %>
+    <meta name="citation_<%= key %>" content="<%= h value.to_s %>"><%
+  end
+end
+%>

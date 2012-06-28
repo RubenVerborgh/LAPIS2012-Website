@@ -7,6 +7,7 @@
     <link href="//fonts.googleapis.com/css?family=Lato:400,700,400italic" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <%= content_for @item, :head %>
   </head>
   <body>
     <header>
@@ -19,10 +20,9 @@
     <nav>
       <ul>
         <% home_page = @items.find { |i| i.reps[0].path == '/' } %>
-        <% @items.sort{|a,b| a[:filename] <=> b[:filename]}.
+        <% @items.find_all{|c| c!= home_page and c[:extension] =~ /^html|md$/}.
+                  sort{|a,b| a[:filename] <=> b[:filename]}.
                   sort{|a,b| (a[:order] || 0) <=> (b[:order] || 0)}.
-                  find_all{|c| c!= home_page}.
-                  find_all{|c| c[:extension] =~ /^html|md$/}.
                   each do |page| %>
           <li<%= @item == page ? ' class="active"' : '' %>><%= link_to(page[:title], page.reps[0]) %></li>
         <% end %>
